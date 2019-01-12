@@ -15,7 +15,8 @@ public class SchleifeFor {
     * }
     *
     * Anfangswert: Wo (bei welchen Wert) soll die Schleife beginnen?
-    * Abbruchbedingung: Bis wohin soll die Schleife gehen?
+    * Abbruchbedingung: Bis wohin soll die Schleife gehen? Solange die Abbruchbedingung nicht wahr ist, führe den
+    * Ausführungsblock aus. Solange, bis die Bedingung wahr (true) ist, dann höre auf.
     * Zähler: Erhöht den Wert der Iterationsvariable.
      */
 

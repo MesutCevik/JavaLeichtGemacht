@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6febe4e8-2c8c-4929-a5b8-157305b1ba2a" name="Default Changelist" comment="" />
+    <list default="true" id="6febe4e8-2c8c-4929-a5b8-157305b1ba2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/SchleifeWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/UnterschiedForWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Methoden/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Methoden/src/com/company/AufgabeMethoden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Methoden/src/com/company/BeispielMethoden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Methoden/src/com/company/MethodenReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Methoden/src/com/company/MethodenReturn2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/out/production/Udemy-Java-Kurs-Kontrollstrukturen/com/company/SchleifeFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/out/production/Udemy-Java-Kurs-Kontrollstrukturen/com/company/SchleifeFor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/out/production/Udemy-Java-Kurs-Kontrollstrukturen/com/company/Schlüsselwortif.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/SchleifeFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/SchleifeFor.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ConcatenateStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="170">
               <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,23 +161,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Course" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Udemy-Java-Kurs-Grundlagen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Udemy-Java-Kurs-Grundlagen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Udemy-Java-Kurs-Grundlagen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Udemy-Java-Kurs-Grundlagen" type="462c0819:PsiDirectoryNode" />
-              <item name="Material" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,11 +293,13 @@
       <workItem from="1546876910656" duration="609000" />
       <workItem from="1546945765289" duration="237000" />
       <workItem from="1546946035088" duration="598000" />
+      <workItem from="1547242928979" duration="30000" />
+      <workItem from="1547242969019" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20458000" />
+    <option name="totallyTimeSpent" value="20505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
@@ -416,7 +416,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ConcatenateStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="170">
           <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />

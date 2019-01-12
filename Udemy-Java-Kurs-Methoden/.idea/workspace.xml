@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9aa6fa41-e94f-429e-b5d3-7d923764fae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Array/src/com/company/AufbauEinesArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Array/src/com/company/BeispielArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Array/src/com/company/BeispielArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Array/src/com/company/WasIstEinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/SchleifeWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/UnterschiedForWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AufgabeMethoden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BeispielMethoden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MethodenReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MethodenReturn2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Grundlagen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Grundlagen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/out/production/Udemy-Java-Kurs-Kontrollstrukturen/com/company/SchleifeFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/out/production/Udemy-Java-Kurs-Kontrollstrukturen/com/company/SchleifeFor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/out/production/Udemy-Java-Kurs-Kontrollstrukturen/com/company/Schlüsselwortif.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/SchleifeFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-Kontrollstrukturen/src/com/company/SchleifeFor.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AufgabeMethoden.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Methoden.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Methoden2.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Methoden2B.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MethodenReturn.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MethodenReturn2.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BeispielMethoden.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AufgabeMethoden.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="816" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Udemy-Java-Kurs-Methoden" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy-Java-Kurs-Methoden" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udemy-Java-Kurs-Methoden" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy-Java-Kurs-Methoden" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udemy-Java-Kurs-Methoden" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy-Java-Kurs-Methoden" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547244427272" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AufgabeMethoden">
+    <configuration name="AufgabeMethoden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AufgabeMethoden" />
+      <module name="Udemy-Java-Kurs-Methoden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeispielMethoden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BeispielMethoden" />
+      <module name="Udemy-Java-Kurs-Methoden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methoden2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Methoden2" />
+      <module name="Udemy-Java-Kurs-Methoden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodenReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MethodenReturn" />
+      <module name="Udemy-Java-Kurs-Methoden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodenReturn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MethodenReturn2" />
+      <module name="Udemy-Java-Kurs-Methoden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Methoden2" />
+      <item itemvalue="Application.MethodenReturn" />
+      <item itemvalue="Application.MethodenReturn2" />
+      <item itemvalue="Application.BeispielMethoden" />
+      <item itemvalue="Application.AufgabeMethoden" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AufgabeMethoden" />
+        <item itemvalue="Application.BeispielMethoden" />
+        <item itemvalue="Application.MethodenReturn2" />
+        <item itemvalue="Application.MethodenReturn" />
+        <item itemvalue="Application.Methoden2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aa6fa41-e94f-429e-b5d3-7d923764fae5" name="Default Changelist" comment="" />
+      <created>1547076467470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547076467470</updated>
+      <workItem from="1547076473124" duration="981000" />
+      <workItem from="1547152948972" duration="4075000" />
+      <workItem from="1547157572154" duration="3886000" />
+      <workItem from="1547240505281" duration="6000" />
+      <workItem from="1547240527460" duration="2302000" />
+      <workItem from="1547242990304" duration="1407000" />
+      <workItem from="1547244459668" duration="1401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14058000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49808428" visible="true" weight="0.43705294" />
+      <window_info id="Structure" order="1" sideWeight="0.5019157" side_tool="true" weight="0.4311377" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3908046" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952926" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/BeispielMethoden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MethodenReturn2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MethodenReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Methoden2B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Methoden2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Methoden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="6" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AufgabeMethoden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
