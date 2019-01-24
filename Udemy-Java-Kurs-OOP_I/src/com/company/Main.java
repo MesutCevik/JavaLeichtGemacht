@@ -1,5 +1,14 @@
 package com.company;
 
+/** MAIN-KLASSE -->> WICHTIG
+ * Jedes Programm braucht eine main-Klasse (eine Hauptklasse), von der aus das ganze Programm eines Projekts gesteuert
+ * wird. In dieser Hauptklasse ist eine main-Methode definiert, welche die Objekte aus den Klassen des Projekts
+ * generiert.
+ *
+ * ALSO: Die main-Klasse fungiert als Operationsbasis für das ganze Programm, von dort werden die einzelnen Prozesse im
+ * Programm gesteuert.
+ */
+
 public class Main { // übersetzt: Haupt-Klasse
 
   public static void main(String[] args) {
@@ -114,6 +123,8 @@ public class Main { // übersetzt: Haupt-Klasse
     audi.gasgeben();
     audi.bremsen();
     audi.vergleichePreis(4000);
+
+    Auto.ausgabe();
 
   }
 }

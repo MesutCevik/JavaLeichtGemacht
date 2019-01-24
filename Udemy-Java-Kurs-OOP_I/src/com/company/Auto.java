@@ -14,9 +14,18 @@ package com.company;
 
 public class Auto {
 
-  // Variablen der Klasse Auto: Das sind die Parameter dieser Klasse.
-  // Sie bestimmen die Eigenschaften eines zu erzeugenden Objekts dieser Klasse.
-  // Man nennt diese Variablen auch Eigenschaften oder Attribute der Klasse.
+  /** EIGENSCHAFTEN BZW. ATTRIBUTE
+   * Die in einer Klasse deklarierten Variablen stellen die Eigenschaften/Attribute von Objekten dar, die anhand dieser
+   * Klasse erzeugt werden.
+   * Da diese Variablen erst dann erzeugt werden, wenn ein Objekt von dieser Klasse generiert wurde, nennt man sie auch
+   * OBJEKTVARIABLEN.
+   *
+   * In der Programmierung nennent man Eigenschaften von z.B. Klassen auch Attribute.
+   *
+   */
+  // Eine KLASSENVARIABLE überlebt auch ohne ein Objekt, sie lebt schon bei der Klassendefinition. Diese Art von
+  // Variablen nennt man auch GLOBALE VARIABLEN. Ihr Wert steht allen Objekten genauso zur Verfügung. Beispiel folgt:
+  static int reifenAnzahl = 4;
 
   int reifen;
   int preis;
@@ -70,7 +79,27 @@ public class Auto {
    */
 
 
-  // Methoden
+  /** KLASSENMETHODE -->> static
+   * Diese Methoden brauchen kein Objekt, um bereitgestellt und ausgeführt zu werden. Klassenmethoden werden mit dem
+   * Schlüsselwort "static" versehen. Sie können mit dem Namen eines generierten Objekts (wie üblich) aufgerufen werden.
+   * Sie können auch allein mit dem Klassennamen aufgerufen werden. Beispiel: Auto.ausgabe();
+   * Normalerweise so: bmw.ausgabe();
+   *
+   * Das bedeutet, wenn man eine Methode mit dem Schlüsselwort "static" definiert, dann ist diese Methode ohne ein
+   * Objekt überlebensfähig. Sie steht also immer bereit und kann ausgeführt werden.
+   * Klassenmethoden stehen allen Objekten, die anhand dieser Klasse erzeugt werden, zur Verfügung und führen immer
+   * denselben Code/dieselben Aufgaben mit denselben Werten aus.
+   */
+  public static void ausgabe(){
+    System.out.println("Ich bin eine Klassenmethode und brauche kein Objekt.");
+  }
+
+  /** METHODEN
+   * Die in einer Klasse definierten Methoden nennt man OBJEKTMETHODEN!
+   * Da diese Methoden erst dann erzeugt werden, wenn ein Objekt von dieser Klasse generiert wurde, nennt man sie auch
+   * OBJEKTMETHODEN.
+    */
+
   public void gasgeben(){
     System.out.println("Das Auto mit der Marke: " + this.marke + " gibt gas und fährt jetzt los.");
   }
@@ -93,5 +122,6 @@ public class Auto {
    *
    * WICHTIG: In der OOP sollen Methoden immer von Objekten aufgerufen werden.
    */
+
 
 }

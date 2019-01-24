@@ -1,0 +1,8 @@
+OBJEKTORIENTIERTE PROGRAMMIERUNG II
+
+VERERBUNG
+Schlüsselwort "extends": Mit extends gibt man eine Vererbung an. (extends = etw. erweitern, ausweiten)
+SUPERKLASSE: Die Superklasse vererbt Eigenschaften und Methoden an die Subklasse(n).
+
+IST-BEZIEHUNG
+Ein BMW ist ein Auto. Ein Porsche ist ein Auto. Ein Audi ist ein Auto.
