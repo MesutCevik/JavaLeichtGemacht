@@ -1,4 +1,4 @@
-OBJEKTORIENTIERTE PROGRAMMIERUNG I****
+**OBJEKTORIENTIERTE PROGRAMMIERUNG I**
 
 F1: Was versteht man unter einem Datentyp?
 **A1: Ein Datentyp beschreibt welche Werte eine Variable annehmen kann.**
@@ -11,8 +11,11 @@ F3: Was ist eine Referenzvariable?
 **A3: In einer Referenzvariable ist die Adresse zu einem Objekt / zu einer Instanz hinterlegt.
 Anders als bei primitiven Variablen, ist in einer Referenzvariable nur die Adresse zum Objekt hinterlegt.**
 
-SINN DER OOP
-Man versucht reale Objekte in ein Programm zu holen, in dem eine Klasse definiert, nach der Objekt erzeugt werden.
+**SINN DER OOP**
+Die OOP versucht reale Objekte in einem Programm abzubilden. Dazu werden zuerst KLASSEN definiert, welche als Baupläne
+dienen. Dann werden aus diesen Bauplänen konkrete Objekte erzeugt. Diese Objekte enthalten eine Ausprägung 
+der Eigenschaften / Attribute, die in einer Klasse definiert wurden. Und sie können Methoden (Funktionen) aufrufen, die
+ebenfalls in der Klasse definiert wurden.
 
 OBJEKT
 Auch genannt:
@@ -20,7 +23,12 @@ OBJEKT aus einer Klasse oder INSTANZ aus einer Klasse.
 
 
 KONSTRUKTOR
-Mit einem Konstruktor kann man ein Objekt mit Werten initialisieren.
+Mit einem Konstruktor kann man ein Objekt mit Werten initialisieren (erzeugen und mit initialen Werten befüllen).
+
+In einer Klasse werden Eigenschaften / Attribute definiert, welche ein zu erzeugendes Objekt annehmen soll.
+Beim erstellen eines Objekts werden dem Konstruktor Werte für diese Attribute übergeben. Diese befinden sich 
+in Parametern, die dann im Programm-Body des Konstruktors individuellen Objekt-Variablen zugewisen werden.
+
 
 
 NEW-OPERATOR

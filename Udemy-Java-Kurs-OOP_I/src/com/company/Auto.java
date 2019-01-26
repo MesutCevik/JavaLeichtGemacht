@@ -36,7 +36,7 @@ public class Auto {
   // Klasse an anderer Stelle im Projekt oder Programm aufgerufen wird.
 
   /** A. STANDARD-KONSTRUKTOR (KONSTRUKTOR OHNE PARAMETER)
-   * MERKE: Der Konstruktor initialisiert ein Objekt mit Werten. Mit Anfangswerten festsetzen.
+   * MERKE: Der Konstruktor initialisiert ein Objekt mit Werten. Also es erzeugt ein Objekt mit Anfangswerten.
    * Java erstellt für jede Klasse automatisch einen Basis-Konstruktor, falls kein anderer Konstruktor definiert ist.
    * Wenn aber ein Konstruktor (normalerweise mit Parametern) definiert wird, dann wird Java diesen berücksichtigen.
    * Hier ist der Basis-Konstruktor explizit zu Anschauungszwecken definiert, obwohl weiter unten ein weiterer
@@ -47,16 +47,26 @@ public class Auto {
   }
 
   /** B. KONSTRUKTOR MIT PARAMETERN:
-   * Mit diesem Konstruktor von der Klasse "Auto" können wir Objekte erstellen. Mit dem Aufrufen des Konstruktors
-   * werden Parameterwerte übergeben werden. Dann wird beim Erstellen des Objekts dieser direkt mit Werten befüllt.
-   * Die Werte werden an VAR übergeben, die in der Auto-Klasse als VAR Eigenschaften bzw. definiert wurden.
+   * Mit einem Konstruktor werden Objekte erzeugt und dabei die Eigenschaften / Attribute mit konkreten
+   * Werten befüllt.
+   * Der Konstruktor hat Parameter definiert, welche Werte für die in der Klasse festgelegten Variablen
+   * (Eigenschaften / Attribute) annehmen und an ein erstelltes Objekt übergeben können.
+   * Diese Parameter dienen dazu, beim Aufrufen des Konstruktors die mitgegebenen Parameterwerte in die Variablen eines
+   * konkreten Objekts zu übergeben.
+   *
+   * Beispiel:
+   * Mit dem individuellen Konstruktor von der Klasse "Auto" können wir Objekte erstellen. Beim Aufrufen
+   * des Konstruktors müssen Parameterwerte für reifen, preis und marke übergeben werden. Nach dem das Objekt erstellt
+   * wurde, werden den Variablen (Eigenschaften / Attributen) dieses Objekts die Parameterwerte übergeben. Dies
+   * erfolgt mit dem "this"-Schlüsselwort, gefolgt von dem Punkt-Operator und dem Variablennamen.
    *
    * Das heißt, um ein Objekt von der Klasse Auto zu erstellen, muss dieser Konstruktor aufgerufen und ihm
    * die festgelegten Parameter übergeben werden. Erst wenn alle erforderlichen Parameterwerte übergeben wurden,
    * erstellt dieser Konstruktor mit diesen Werten ein Objekt generieren.
    *
-   * Beispiel: Dem folgenden Konstruktor müssen beim Aufrufen die Parameterwerte für reifen, preis und marke übergen
-   * werden, damit ein Auto-Objekt initialisiert wird:
+   * Der folgende Konstruktor muss in der Main-Methode mit Parameterwerten aufgerufen werden, damit ein Objekt erzeugt
+   * wird. Dabei müssen zu allen Paramatern Werte übergeben werden, welche in der Klasse für diesen Konstruktor
+   * festgelegt wurden.
    */
   public Auto(int reifen, int preis, String marke){ // Diesem Konstruktor können wir Werte für die 3 VAR übergeben.
     this.reifen = reifen;

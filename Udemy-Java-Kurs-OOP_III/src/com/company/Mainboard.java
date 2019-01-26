@@ -37,14 +37,23 @@ public class Mainboard {
 // Konstruktor definiert wird, beachtet Java den Standard-Konstruktor nicht mehr.
 
 /** FN2:
- * Individueller Konstruktor: Beim Aufruf dieses Konstruktors können wir Parameter übergeben, mit denen die VAR
- * eines Objekts dieser Klasse befüllt werden, wenn das Objekt generiert wird. Dann können wir über dieses Objekt
+ * Ein individueller Konstruktor (ein Konstruktor mit Parametern) wird mit Parameterwerten aufgerufen. Mit diesen
+ * Parametern werden die Variablen eines erzeugten Objekts befüllt, die Variablen sind in der Klasse als Eigenschaften /
+ * Attribute definiert.
+ * Für diese Befüllung wird im Body des Konstruktors definiert, welcher Parameterwert welcher Variable eines erzeugten
+ * Objekts zugewiesen wird. Dies geschieht mit diesen Code:
+ * >>> this.preis = preis;
+ * Mit dem Schlüsselwort "this", dem '.'-Operator und dem ausgewählten Variablen wird festgelegt, welche Variable dieses
+ * Objekts, welcher gerade erzeugt wird, welchen Parameterwert erhalten soll.
+ * Der Zuweisungsoperator '=' und der Parametername weisen dann den Parameterwert der Variable zu.
+ *
  * Methoden aus dieser Klasse aufrufen und die Variablen-Werte bearbeiten.
- * Mit "this.ramSlot = ramSlot;" weisen wir einen Parameter wert einer VAR zu, welcher in einem Objekt dieser Klasse
+ * Mit "this.ramSlot = ramSlot;" weisen wir einen Parameterwert einer VAR zu, welcher in einem Objekt dieser Klasse
  * eingerichtet wird. this = Geh in das Objekt hinein, das gerade erstellt wird mit diesem Konstruktur, rufe dort
  * die VAR ramSlot auf und weise dieser den Wert des übergebenen Parameters "ramSlot" zu.
   */
 
+// Recap: Initialisieren = Einer Variable einen initialen Wert übergeben.
 // EINGENSCHAFTEN / ATTRIBUTE
 // KONSTRUKTOREN
 // METHODEN

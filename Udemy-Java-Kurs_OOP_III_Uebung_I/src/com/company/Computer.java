@@ -28,9 +28,17 @@ public class Computer {
   }
 
   // METHODEN
-
+  // In dieser Klasse sind keine Methoden definiert.
 
 }
+
+/** zu c) INDIVIDUELLER-KONSTRUKTOR
+ * Diesem Konstruktor werden als Parameterwerte einerseits Werte für die primitiven Variabeln cpu und preis übergeben.
+ * Andererseits werden auch Parameterwerte für ein weiteres Objekt - dem Mainboard - übergeben.
+ * Denn ein Objekt, welcher mit diesem Konstruktor erstellt wird, hat ein anderes Objekt, das Mainboard.
+ *
+ */
+
 
 // EINGENSCHAFTEN / ATTRIBUTE
 // KONSTRUKTOREN

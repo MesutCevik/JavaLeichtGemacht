@@ -1,0 +1,49 @@
+**ASSOZIATION**
+Man spricht von Assoziation, wenn ein Objekt ein anderes Objekt kennt.
+
+**IST-BEZIEHUNG - VERERBUNG**
+Mit der Vererbung werden mehrere Klassen in eine Ist-Beziehung gesetzt.
+
+Logik der Vererbung: Die Klasse BMW ist ein Auto. Aus der Klasse können wir jederzeit ein weiteres BMW erzeugen.
+
+Ein BMW ist auch ein Auto.
+
+
+**HAT-BEZIEHUNG - ASSOZIATION**
+Ein Objekt kennt ein anderes Objekt. Ein Objekt hat ein anderes Objekt. In einem Objekt steckt ein anderes Objekt.
+Bzw. eine Klasse kennt eine andere Klasse, denn aus den Klassen werden die Objekte generiert.
+
+Beispiel: Es existieren zwei Klassen: Computer und Mainboard.
+Das Objekt Computer hat ein Objekt Mainboard, weil es in seiner Definition als einen der Bestandteile das Mainbord hat.
+ALSO: Ein Objekt der Klasse Computer hat ein Objekt der Klasse Mainbord.
+
+_Bisher gelernt:_
+**String zeichenkette = new String();**
+String = Datentyp, 
+    zeichenkette = Variablenname, 
+        '=' = Zuweisungsoperator, 
+            new = Operator/Schlüsselwort für das erstellen eines neuen Objekts,
+                String() = Konstruktor, zum Erzeugen eines String-Objekts
+
+Mit dieser Code-Zeile DEKLARIEREN wir ein Objekt und weißen ihm einen initialen Wert zu (INITIALISIEREN).
+In diesem Fall ist es ein leeres String.
+
+Da String eine besondere Klasse ist, ein besonderer Datentyp, braucht man den new-Operator und Konstruktor 
+nicht zu schreiben. 
+ALSO: **String zeichnenkette-2 = "Ich bin eine Zeichenkette.";**
+
+In diesem Fall deklarieren und initialisieren wir die Variable zeichenkette-2 in einem Schritt und mit weniger Text.
+
+
+BEISPIEL:
+
+    **Computer cp1 = new Computer();**
+    **System.out.println(cp1.mainboard);**
+
+Im obigen Beispiel geben wir in der Konsole die Variable "mainboard" aus. Aber wir haben noch kein Objekt
+der Klasse Mainboard erstellt. Daher kommt als Ausgabewert "null" (sprich: nall) raus.
+Übrigens: "mainborad" ist eine Referenzvariable, weil es ein komplexer Datentyp ist.
+null = In der Variable cp1.mainboard ist keine Adresse von einem Objekt gespeichert.
+
+Wenn aber ein Objekt mainboard vo Typ Mainboard erzeugt haben, steht dann in mainboard (der Referenzvariable)
+die Adresse zum Speicherot. 

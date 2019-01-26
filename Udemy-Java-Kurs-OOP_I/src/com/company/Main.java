@@ -13,17 +13,17 @@ public class Main { // übersetzt: Haupt-Klasse
 
   public static void main(String[] args) {
 
-    /** main-Methode
+    /** MAIN-METHODE
      * In jedem Projekt wird mindestens eine Java-Klasse erforderlich, in der die main - Methode definiert ist:
      * public static void main (String[]args){ ... }
      * In dieser Methode entsteht ein Java-Projekt.
      *
      * Sinnvollerweise werden Objekte von Klassen in der main-Methode erstellt. Dann kann im weiteren Verlauf des
      * Programms mit diesen Objekten gearbeitet werden.
-     * ERINNERE: DIE main-Mathode ist der Startpunkt eines jeden Programms.
+     * ERINNERE: Die main-Mathode ist der Startpunkt eines jeden Programms.
      *
-     * WICHTIG: (ANDERE) METHODEN
-     * In der Objektorientierten Programmierung (OOP) werden Methoden immer von deren Objekten aufgerufen werden.
+     * (ANDERE) METHODEN >> wichtig!
+     * In der Objektorientierten Programmierung (OOP) werden Methoden immer von deren Objekten aufgerufen.
      * Daher wie folgt vorgehen:
      * (1.) Ein Objekt einer Klasse erzeugen.
      * (2.) Von diesem Objekt aus die Methoden aufrufen.

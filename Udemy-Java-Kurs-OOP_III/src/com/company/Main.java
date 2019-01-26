@@ -12,6 +12,9 @@ public class Main {
          * der Klasse Mainboard erstellt. Daher kommt als Ausgabewert "null" (sprich: nall) raus.
          * Übrigens: "mainborad" ist eine Referenzvariable, weil es ein komplexer Datentyp ist.
          * null = In der Variable cp1.mainboard ist keine Adresse von einem Objekt gespeichert.
+         *
+         * Wenn aber ein Objekt mainboard vo Typ Mainboard erzeugt haben, steht dann in mainboard (der Referenzvariable)
+         * die Adresse zum Speicherot.
          */
 
         Mainboard board1 = new Mainboard();

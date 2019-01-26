@@ -4,9 +4,13 @@ public class Computer {
 
   // EINGENSCHAFTEN / ATTRIBUTE
   String cpu;
-  Mainboard mainboard;
-
+  Mainboard mainboard; // Die class Computer hat in seinen Eigenschaften ein anderes Objekt: mainboard.
   int preis;
+
+  /** ERKLÄRUNG: Erinnere!
+   * VAR cpu hat einen Wert gespeichert, weil es ein primitiver Datentyp ist.
+   * VAR cpu hat nur eine Adresse zum Speicherort dieses Ojbjekts gespeichert, und keinen Wert. (Referenzvariable)
+   */
 
   // KONSTRUKTOREN
   // A) STANDARD-KONSTRUKTOR
