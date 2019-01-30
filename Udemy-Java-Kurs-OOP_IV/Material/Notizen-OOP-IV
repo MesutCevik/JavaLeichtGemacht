@@ -1,0 +1,88 @@
+**MODIFIKATOREN**
+
+**public und private**
+
+ 
+MODIFIKATOREN beschreiben unter anderem die Zugriffsmöglichkeiten.
+Damit steuert man die Sichtbarkeit von Variablen, Methoden, Konstruktoren und auch Klassen.
+Es gibt auch andere Modifikatoren, die aber in diesem Kapitel nicht behandelt werden.
+
+Es gibt vier **ZUGRIFFSMODIFIKATOREN**
+Diese haben Zugriff auf:
+(1) public:     eigene Klasse, Package, Superklasse, fremde Klasse 
+(2) protected:  eigene Klasse, Package, Superklasse
+(3) package:    eigene Klasse, Package
+(4) private:    eigene Klasse
+
+Hier wird zunächst nur public und private betrachtet.
+
+Modifikatoren sorgen für den Zugriff, z.B. auf eine Variable oder Methode.
+
+Wozu gibt es Zugriffsmodifikatoren?
+(A) Man möchte den Zugriff von außen verhindern.
+(B) Man möchte keine unerwünschten Werte haben.
+
+
+(1) **PUBLIC**
+"public": Zugriff auch außerhalb der Klasse erlaubt.
+Der Modifikator "public" sagt aus: Eine Variable, Methode, Konstruktor oder eine Klasse kann auch in anderen Klassen 
+genutzt werden, sie ist also in anderen Klassen sichtbar.
+
+D.h. ist so etwas wie "weltweiter Zugriff"; jede Klasse in unserem Source-Ordner kann auf eine Variabel, Methode, 
+Konstruktor oder Klasse zugreifen, dessen Modifikator "public" gesetzt ist.
+
+"public" kann umschrieben werden als: Von überall kann auf z.B. eine public Variable zugegriffen werden. Sein Wert kann 
+abgerufen und verändert werden.
+
+
+(2) **PRIVATE**
+"private": Zugriff nur innerhalb der eigenen Klasse erlaubt.
+Das heißt, von außerhalb der eigenen Klasse können private Variablen und Methoden nicht aufgerufen werden.
+Damit aber von außerhalb diese Variablen und Methoden aufrufbar werden, setzt man sog. Getter- und 
+Setter-Methoden ein.
+
+SINN von private: In einer Klasse kann es Variablen oder Methoden geben, welche von außerhalb der Klasse 
+nicht aufgerufen werden sollen. Daher gewährt man über Getter- und Setter-Methoden die Möglichkeit, dass 
+von anderen Stellen im Programm die Variablen und Methoden auf eine bestimmte Art zugegriffen werden können.
+
+(3) **PROTECTED**
+xxxxx
+
+(4) **PACKAGE**
+Bei Variablen und Methoden, bei denen vorangestellt nichts steht, ist nicht-sichtbar ein "package" 
+vorhanden. Dieser erlaubt den Zugriff von innerhalb des Java-packages, in der die Klasse mit den Variablen
+und Methoden gespeichert ist.
+
+
+**KONSTRUKTOR:** 
+Wird i.d.R. über eine Main-Methode aufgerufen, um ein Objekt einer Klasse zu erzeugen. Dabei werden 
+Parameterwerte übergeben, welche den Objektvariablen initial zugewiesen werden (mit dem this-Schlüsselwort). 
+D.h. die Objektvariablen werden mit einem Anfangswert initialisiert. Nach der Erzeugung eines Objekts verändert der
+Konstruktor die Werte der Objektvariablen nicht mehr.
+Damit aber andere Teile des Programms die Werte in Objektvariablen abrufen und verändern können, bedient man sich den 
+sog. Getter- und Setter-Methoden.
+
+
+**OBJEKTVARIABLEN:**
+Die Objektvariablen sind in der Klasse definiert und werden beim Aufruf eines Konstruktors mit Anfangswerten 
+initialisiert. Diese Variablen existieren nur dann, wenn ein Objekt aus der entpsrechenden Klasse erzeugt wird.
+Und der Zugriff auf Objektvariablen, z.B. aus anderen Klassen, erfolgt über das Objekt selber: 
+objetName.variablenName 
+
+**GETTER- UND SETTER-METHODEN**
+Die sog. Getter und Setter sind im Grunde ganz normale Methoden. Sie dienen aber insbeondere der Sicherheit bestimmten Zwecken.
+Man verseht Variabeln und Methoden mit dem Zugriffsmodifikator "private", damit von außerhalb der Klasse kein 
+unkontrollierter Zugriff darauf erfolgt (z.B. User setzt -100 als Lebenspunkte). Weder zum Lesen noch zum Schreiben.
+
+**GETTER**
+Getter sind Methoden und haben die Aufgabe, einen Wert aus einer Variable auszugeben. Man nennt diese Methoden Getter, 
+da ihre Namen immer mit dem Begriff "get" beginnen, gefolgt vom Variablennamen. 
+Beispiel: getLebenspunkte()
+-->> private int lebenspunkte = 100;
+
+**SETTER**
+Setter sind Methoden und haben die Aufgabe, einer Variable einen neuen Wert zuzuweisen. Man nennt diese Methoden 
+Setter, da ihre Namen immer mit dem Begriff "set" beginnen, gefolgt vom Variablenname.
+Beispiel: setLebenspunkte()
+private int lebenspunkte 
+
