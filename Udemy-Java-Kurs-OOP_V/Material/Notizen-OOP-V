@@ -1,0 +1,169 @@
+**NOTIZEN OBJEKTORIENTIERTE PROGRAMMIERUNG V**
+
+**ABSTRAKTE KLASSEN**
+
+Logik von abstakten Klassen: 
+Es wird festgelegt, welche Variablen und Methoden es geben soll. Jedoch definiert die abstrakte Klasse nicht,
+wie die Werte sind und wie die Methoden eine Arbeit erledigen.
+
+Also: Eine abstrakte Klasse definiert, WAS getan werden soll, nicht aber WIE es getan werden soll.
+
+Abstrakte Methoden einer abstrakten Klasse werden allein durch METHODENSIGNATUREN bzw. METHODENKÖPFE 
+definiert. Dabei wird nach dem Zugriffsmodifikator das Schlüsselwort "abstract" geschrieben.
+Abstrakte Methoden haben keinen Code-Block und sind damit nicht abschließend definiert.
+
+        BEISPIEL: public abstract void essen();
+
+Gedankengang: Eine abstrakte Klasse "Tier" hat die abstrakte Methode essen(). Denn jedes Tier muss essen. Daher legt
+diese Klasse fest, dass jedes Tier eine Methode essen() haben muss. Dazu definiert es den Methodenkopf.
+Aber jedes Tier isst anders. Daher definiert die abstrakte Klasse Tier nicht, wie das "essen()" aussieht. Es hat keinen
+Code-Block.
+Die abschließende Definition einer Methode essen() erfolgt in den einzelnen Klassen für die Tierarten. Diese würden als
+Subklassen die Methodenköpfe von der Superklasse Tier erben.
+
+        BEISPIEL: Eine Subklasse Hund definiert, wie ein Hund isst.
+
+BEISPIEL:
+Mit der Klasse "Auto" haben wir definiert, 
+a) welche Eigenschaften / Attribute ein Auto-Objekt haben soll.
+b) mit welchen Konstruktoren ein Auto-Objekt generiert werden soll.
+c) welche Methoden einem Auto-Objekt zur Verfügung stehen soll.
+
+Wir möchten aber kein Auto mit der Auto Klasse selbst erzeugen, die Erstellung von Autos soll in anderen
+Klassen wie "BMW" und "Audi" geschehen.
+
+Wir sagen mit der Klasse "Auto", was das zu erzeugende Auto machen soll, aber nicht wie.
+Wie ein Auto etwas machen soll beschreiben wir in anderen Klassen, wie z.B. "BMW" und "Audi".
+
+Welche Werte die Variablen haben sollen und was die einzelnen Methoden ausführen sollen,
+ist in den anderen Klassen definiert.
+public abstract class Auto() {... }
+
+Beispiel: 
+In der Klasse "Auto" ist definiert, das ein Auto bremsen können soll. Wie ein Auto bremst, wird aber in der Klasse
+von z.B. "BMW" beschrieben.
+-->> public abstract void bremsen()
+Dies ist ein Methoden-Signatur.
+Wenn in der Superklasse ein abstract Methode genannt wird, muss in der Subklasse diese Methode 
+definiert werden. Denn jedes Auto bremmst anders.
+
+
+Abstrakte Klassen haben abstrakte Methoden, aber auch ganz normale Methoden, wie wir sie bisher definiert haben.
+
+Mit abstrakten Methoden legt man in einer abstrakten Klasse fest, welche Verhaltensweisen bzw. Methoden ein zu 
+erzeugendes Objekt dieser Klasse haben soll. Aber es wird in der Superklasse nicht definiert, wie diese Verhal-
+tensweise auszusehen hat. Die konkrete Definition der abstrakten Methode erfolgt dann in ein oder mehreren 
+Subklassen.
+
+Bestandteile von abstrakten Klassen:
+(a.) Eigenschaften / Attribute
+(b.) Konstruktoren
+(c.) Methoden und abstrakte Methoden.
+Abstrakte Klassen haben wie bei normalen Klassen  Eigenschaften / Attribute und auch Konstruktoren.
+Aber aus einer abstrakten Klasse sollen keine Objekte erzeugt werden.
+
+ABSTRAKTE KLASSE -->> Superklasse.
+- Hat Eigenschaften / Attributen, Konstruktoren u. Methoden / abstrakte Methoden.
+- Vererbt an Subklassen.
+- Es können keine Objekte/Instanzen erzeugt werden.
+
+NORMALE KLASSE -->> Subklasse.
+- Erbt Bestandteile der Superklasse.
+- Hat Eigenschaften / Attributen, Konstruktoren u. Methoden.
+- Definiert die abstrakten Methoden der Superklasse abschließend.
+
+Unterschiede zwischen normalen und abstakten Klasse:
+a) Aus einer abstrakten Klasse kann kein Objekt erzeugt werden.
+b) In einer abstrakten Klasse sind abstrakte Methoden enthalten. Es können auch normale Methoden definiert sein.
+
+Wichtig: VERERBUNG BEI JAVA
+Eine Subklasse kann nur von einer Superklasse Bestandteile erben!!!
+Z.B. kann eine public class Hund extends Tier() keinen weiteren extends haben.
+
+Abstrakte Klassen eigenen sich sehr gut für die Vererbung, weil von ihnen keine Klassen erzeugt werden können.
+
+
+**INTERFACES**
+
+Ein INTERFACE besteht nur aus abstrakten Methoden. 
+Recap zu abstrakten Methoden:
+- Bestehen nur aus einer Methodensignatur / einem Methodenköpf.
+- Ein Code-Block fehlt. Damit ist nicht beschrieben, wie die Methode arbeitet.
+Also: abstrakte Methoden legen fest, dass es eine Methode geben soll, sie sagen aber nichts aus, wie die Methode 
+ausgeführt werden soll.
+
+Genauso wie abstrakte Klassen haben Interfaces abstrakte Methoden:
+BEISPIELE: 
+a) public abstract void essen();
+b) public abstract void atmen();
+
+Eigenschaften von Interfaces:
+- Haben nur abstrakte Methoden festgelegt.
+- Interface-Namen beginnen laut Namenskonvention immer mit einem großen i: I
+Dann folgt mit einem großen Buchstabe der eigentliche Name.
+- In der "Titelzeile" steht anstatt class der Schlüsselwort interface.
+- Wie in abstrakten Klassen, sagen abstrakte Methoden in Interfaces, was zu tun ist, aber nicht wie es zu tun ist.
+Sie legen fest, welche Methoden es in einer erbenden Klasse geben soll.
+- Eine normale Klasse kann von mehrere Interfaces Methoden erben.
+- Aus einem Interface kann kein Objekt erzeugt werden.
+- Bei den abstrakten Methoden kann das Schlüsselwort "abstract" weggelassen werden. 
+In Interfaces gibt es nur abstakte Methoden.
+
+Bestandteile von Interfaces:
+a) Eigenschaften / Attribute --> ABER: nur Konstanten
+b) Methodensignaturen / Methodenköpfe (von abstrakten Methoden):
+public abstract void essen();
+
+EIGENSCHAFTEN / ATTRIBUTE von Interfaces
+public static final String NETZANBIETER="Telekom"
+
+- public: Zugriffsmodifikator
+- static: Klassenvariable. Auf diese Variable kann ohne ein Objekt zugegriffen werden.
+- final: Ein Modifier. Der Wert der Variable NETZANBIETER kann sich nicht ändern, es ist eine Konstante.
+Namen von final Variablen werden in Kapitalbuchstaben geschrieben.
+
+Beispiel für Methodensignaturen / Methodenköpfe:
+a) public abstract void powerON();
+b) public abstract boolean esKlingelt();
+c) public abstract boolean anrufen();
+Angenommen es gibt ein Interface "Telefon", welches die obigen Methoden festlegt. Und ein Subklasse "GalaxyS5"
+erbt die Methoden aus diesem Interface. Dann muss ein Objekt der Klasse "GalaxyS5", z.B. die Methode esKlingelt, 
+implementiert haben. D.h. es muss eine Methode esKlingelt() deklarieren und genau definieren, wie ein Objekt GalaxyS5
+zu klingeln hat.
+
+Nochmals: Die obigen Beispiele sind abstrakte Methoden. Diese sagen, was getan werden muss, aber nicht, wie es getan 
+soll.
+
+In einem Interface kann bei der Beschreibung der abstrakten Methoden das Schlüsselwort "abstract" weggelassen werden. 
+Denn in Interfaces gibt es nur abstakte Methoden und somit ist jede Methode abstrakt.
+
+Wie man sich die Schlüsselwörter merken kann:
+-> extends = anbieten (ich würde eher sagen: erweitert).
+-> implements = implementiert, vollendet, wendet an.
+
+In einem Interface (vererbt) ist festgelegt, welche Methoden es in einer erbenden Klasse (Subklasse) 
+geben muss. Und die Methoden, die abstrakt sind, legen nur fest, was getan werden muss. 
+Wie eine Methode seine Aufgabe erfüllt, muss in der Subklasse (erbt) defniert sein. Dort muss die abstrakte Methode
+vollendet, d.h. implementiert werden.
+In der erbenden Klasse müssen alle abstrankten Methoden der Superklasse implementiert werden.
+
+Eine normale Klasse kann Methoden und Variablen
+- nur von einer abstrankten Klasse erben.
+- aber eine oder mehrere Interfaces implementiert haben.
+
+MERKE: In einem Interface können Methoden ausgelagert werden, die von vielen normalen Klassen genauso implementiert
+werden.
+
+BEISPIEL:
+In einem Interface "Smartphones" sind die Grundfunktionen von Smartphones als abstrakte Methoden festgelegt.
+Zum Beispiel: esKlingelt(), anrufen(), auflegen().
+Es ist lediglich festgelegt, dass jedes Smartphone-Modell diese Funktionen unterstützt.
+Jedes Smartphone-Modell muss diese Funktionen implementieren und individuell definieren.
+
+Vorteil:
+Angenommen, es gibt 1000 verschiedene Smartphone-Modelle. Jedes dieser MOdelle hat dieselben Grundfunktionen.
+Dies erleichtert dem Programmierer sich die möglichen Grundfuniktionen zu merken. Der Programmierer kann viele 
+Smartphone-Objekte erzeugen und allen dieselben Grundfunktionen geben. Er muss sich nur die wenigen abstrakten 
+Methoden merken.
+
+

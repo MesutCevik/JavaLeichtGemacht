@@ -1,0 +1,13 @@
+**PACKAGES**
+
+Im Ordner "src" befindet sich der Sourcecode (der Quellcode) eines Projekts. Im src-Ordner befinden sich die einzelnen 
+Pakete des Programms, welche "Packages" genannte werden.
+Packages dienen dazu, ein Programm in sinnvolle Themen-Pakete zu unterteilen.
+BEISPIEL: COMPUTERSPIEL
+1. Package: Enthält alles, was die Gegner ausmacht.
+2. Package: Enthält alles, was den Spieler ausmacht.
+3. Package: Enthält alles, was die Spielelandschaft ausmacht.
+
+In einem Projektverzeichnis gibt es immer einen Default-Package und dazu die nach Bedarf erstellten Packages.
+
+ 

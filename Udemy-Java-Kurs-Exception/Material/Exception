@@ -1,0 +1,7 @@
+**EXCEPTION**
+
+In bestimmten Programmabschnitten können Fehler auftreten, z.B. weil der User eine Fehleingabe tätigt.
+Exceptions dienen dazu, um solche Fehler abzufangen und zu behandeln, damit das ganze Programm nicht zur Laufzeit
+abstürzt.
+
+Der Fehler soll genauer angeschaut und dann der weitere Verlauf des Programms festgelegt werden.
