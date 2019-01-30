@@ -1,0 +1,95 @@
+COLLECTION FRAMEWORK
+
+Datenstrukturen im Collection Framework:
+a) List
+b) Set
+c) Map
+Das sind die Konzepte, Logiken hinter den Datenstrukturen des CFs.
+
+Logiken in die Programmierung verpacken >> durch Klassen.
+
+
+
+Bisher gelernt: Array
+- Index weist auf den Platz hin.
+- statisch, die Größe wird bei der Deklarierung festgelegt.
+
+**Klassen für Listen im CF**
+Eine Liste wird in Java durch diese Klassen realisiert:
+a) **ArrayList**
+b) **LinkedList**
+
+**LIST**
+Dies ist das allgemeine Konzept einer Liste:
+- Eine Liste enthält Elemente (Objekte).
+- Die Größe der Liste ist bei der Erstellung unbekannt.
+- Die Größe ist dynamisch, d.h. es können Elemente (Objekte) hinzugefügt und entfernt werden
+        >> Das ist der große Vorteil gegenüber einem Array!
+- Es können nur Objekte gespeichert werden.
+- Elemente (Objekte) können an beliebigen Stellen hinzugefügt werden.
+- Gleiche Elemente (Ojekte) dürfen doppelt, dreifach usw. vorhanden sein.
+
+ERKLÄRUNG:
+In der OOP werden reelle Objekte anhand von Klassen in ein Programm geholt.
+Listen aus der reellen Welt werden durch die Klassen ArrayList und LinkedList in das Programm geholt werden.
+Dabei stellt "List" das allgemeine Konzept dar.
+
+**ArrayList**
+**Die Klasse ArrayList (Feld)**
+
+Ein ArrayList ist im Grunde ein Array, es ist nur dynamisch.
+Es ist ein Array als eine Liste.
+
+Eigenschaften:
+- dynamisch, d.h. die Größe ist veränderbar.
+- Zuordnung durch den Index (Zahlen).
+- Reihenfolge durch den Index gegeben.
+
+In der ArrayList können keine primitiven Datentypen abgelegt werden. Es können nur Objekte (komplexe Datentypen) 
+abgespeichert werden. Daher gibt es die sog. WRAPPERKLASSEN, welche einen primitiven Datentyp umhüllen und in 
+ein Objekt wandeln. Damit können auch primitive Datentypen in ArrayLists gespeichert und bearbeitet werden.
+
+BEISPIEL: Integer zahl1 = new Integer(22);
+Die Zahl 22 (ein int, als ein primitiver Datentyp)
+
+
+**LinkedList**
+Unterscheidet sich leicht von der ArrayList.
+
+Die Klasse LinkedList:
+- dynamisch, d.h. die Größe der LinkedList ist veränderbar.
+- Zuordnung durch den Index!!!
+- Reihenfolge wie in einer Liste, sprich: jedes Element kennt das nächste Element usw.
+- Jedes Objekt kennt seine Nachbarn (nennt man oft VERKETTETE LISTE oder auch DOPPELT VERKETTETE LISTE).
+
+**Set**
+Set (Menge)
+- ungeordnete/unsortierte Sammlung
+- Jedes Element (Objekt) nur einmal vorhanden sein, d.h. kein Element ist( kann doppelt vrohanden sein.)
+
+Wird in Java durch diese Klassen realisiert:
+1) TreeSet
+2. HashSet
+
+
+**Map**
+Eine Map ist ein assoziatives Datenfeld:
+- Zuorndung durch ein Schlüssel.
+- Schlüssel kann ein anderes Objekt sein, häufig verwendet man aber Strings.
+- Schlüssel dienen als Adresse zum Element / Objekt. Also, der Zugriff auf einen Wert erfolgt über den Schlüssel.
+- Keine feste Reihenfolge der Elemente.
+
+
+**Beispiele für ArrayLists**
+a) ArrayList einkaufsListe = new ArrayList();
+In diese ArrayList können Daten von beliebigen Typen gespeichert werden. Es gibt keine Einschränkung für den Datentyp.
+
+b) ArrayList<String> namensListe = new ArrayList<String>();
+Hier ist der Datentyp auf einen generischen Typ (Generics) festgelegt: String.
+Damit können in dieser ArrayList nur Strings gespeichert werden.
+
+zu b) 
+namensListe.add("Peter"); // Fügt einen String der ArrayList "namensListe".
+namensListe.add(new Double(4.5)); // Falsch, not applicable.
+Letztes Beispiel funktioniert nicht, weil oben festgelegt wurde, dass in dieser ArrayList nur Strings gespeichert 
+werden soll.

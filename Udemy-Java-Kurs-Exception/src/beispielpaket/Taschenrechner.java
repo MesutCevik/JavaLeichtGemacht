@@ -15,9 +15,12 @@ public class Taschenrechner {
     System.out.println("Ergebnis: " + (userZahl1 - userZahl2));
   }
 
-  public static void dividiere(int userZahl1, int userZahl2) throws Exception {
+  // Mit der Mehtode "NichtDurchNulltTeielenException wollen wir nur Fehler auffangen, welche vom User gemacht wurden.
+  // Wir wollen nicht unsere Eigenen Fehler auffangen.
+  public static void dividiere(int userZahl1, int userZahl2) throws NichtDurchNullTeilenException {
     if (userZahl2 == 0) {
-      throw new Exception(); // Schmeiße jetzt eine neue Exception aus!
+      // Schmeiße jetzt eine neue Exception von der Klasse "NichtDurchNullTeilenException" aus!
+      throw new NichtDurchNullTeilenException("Hey, Du darfst keine Null eintippen!");
     } else {
       System.out.println("Ergebnis: " + (userZahl1 / userZahl2));
     }
@@ -30,11 +33,18 @@ public class Taschenrechner {
    */
 
   /** ERKLÄRUNG zu throw und trows
-   * (a) throws = ich drohe eine Exception zu schmeißen! Ich könnte einen Fehler schmeißen.
+   * (a) throws = ich drohe an, eine Exception zu schmeißen! Ich könnte eine Fehlermeldung schmeißen.
+   *      Im Methodensignatur / Methodenkopf von dividiere() signalisiert das Schlüsselwort "throws", dass eine
+   *      Exception geworfen werden kann. In der Methoden-Deklaration muss daher stehen: throws Exception
    *
    * (b) throw = ich schmeiße jetzt eine Exception!
+   *      Im Code-Block/Anweisungsblock sorgt das Schlüsselwort "throw" dafür, dass eine Exception ausgeworfen wird,
+   *      wenn die if-Bedingung wahr ist.
+   *      Mit dem new-Operator wird eine neues Exception-Objekt erstellt und geworfen.
    *
-   * throws =
+   *
+   *
+   * "Exception" ist eine eigene Superklasse. Wir können auch eigene Exceptions erstellen.
    */
 
 }

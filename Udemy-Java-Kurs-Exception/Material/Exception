@@ -5,3 +5,31 @@ Exceptions dienen dazu, um solche Fehler abzufangen und zu behandeln, damit das 
 abstürzt.
 
 Der Fehler soll genauer angeschaut und dann der weitere Verlauf des Programms festgelegt werden.
+
+ALSO:
+Mit einer Exception kann man Fehler auffangen und diese bearbeiten.
+Eine Exception wird geworfen und aufgefangen. So kann man diesen Fehler bearbeiten und dafür sorgen, 
+dass das Programm weiter läuft.
+
+try = versuche
+catch = fange /einfangen
+
+Try & Catch wörtlich gut zu merken mit:
+
+---
+try = versuche den Code im Anweisungsblock auszuführen 
+{
+} catch = fange einen Fehler auf, falls dieser geworfen wird 
+{ hier kann der Fehler bearbeitet werden }
+---
+
+**throw und throws**
+Was ist der Unterschied?
+a) "throws" wird in der Methodensignatur genutztf. Damit deutet man an, dass die Methoden evtl. eine Exception werden kann.
+
+b) "thorw" deutet nichts mehr an sondern mit diesem Schlüsselwort werden wir eine Exception aus. Deshalb 
+"throw new Exception", d.h. es wird ein neues Objekt der Klasse Exception erstellet.
+
+Warum erstellt man eigene Exceptions?
+Damit man explizit nur den einen Fehler auffängt und nicht andere wie z.B. Porgrammierfehler.
+Dabei sind eigene Exception immer selbst Klassen.

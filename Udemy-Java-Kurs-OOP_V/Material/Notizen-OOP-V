@@ -85,11 +85,12 @@ Abstrakte Klassen eigenen sich sehr gut für die Vererbung, weil von ihnen keine
 
 **INTERFACES**
 
-Ein INTERFACE besteht nur aus abstrakten Methoden. 
-Recap zu abstrakten Methoden:
-- Bestehen nur aus einer Methodensignatur / einem Methodenköpf.
+Ein **INTERFACE** besteht nur aus abstrakten Methoden.
+ 
+Recap: **ABSTRAKTE METHODEN**:
+- Bestehen nur aus einer Methodensignatur bzw. einem Methodenkopf.
 - Ein Code-Block fehlt. Damit ist nicht beschrieben, wie die Methode arbeitet.
-Also: abstrakte Methoden legen fest, dass es eine Methode geben soll, sie sagen aber nichts aus, wie die Methode 
+Also: Abstrakte Methoden legen fest, dass es eine Methode geben soll, sie sagen aber nichts aus, wie die Methode 
 ausgeführt werden soll.
 
 Genauso wie abstrakte Klassen haben Interfaces abstrakte Methoden:
@@ -97,17 +98,18 @@ BEISPIELE:
 a) public abstract void essen();
 b) public abstract void atmen();
 
-Eigenschaften von Interfaces:
-- Haben nur abstrakte Methoden festgelegt.
+**Eigenschaften von Interfaces:**
+- Interfaces haben nur abstrakte Methoden festgelegt - sonst nichts.
+- Aus einem Interface kann kein Objekt erzeugt werden.
 - Interface-Namen beginnen laut Namenskonvention immer mit einem großen i: I
 Dann folgt mit einem großen Buchstabe der eigentliche Name.
-- In der "Titelzeile" steht anstatt class der Schlüsselwort interface.
-- Wie in abstrakten Klassen, sagen abstrakte Methoden in Interfaces, was zu tun ist, aber nicht wie es zu tun ist.
-Sie legen fest, welche Methoden es in einer erbenden Klasse geben soll.
-- Eine normale Klasse kann von mehrere Interfaces Methoden erben.
-- Aus einem Interface kann kein Objekt erzeugt werden.
-- Bei den abstrakten Methoden kann das Schlüsselwort "abstract" weggelassen werden. 
-In Interfaces gibt es nur abstakte Methoden.
+- In der Deklaration (also die erste Zeile, der Kopf einer Methode) steht anstatt class das Schlüsselwort "interface".
+- Abstrakte Methoden in Interfaces legen fest, was zu tun ist, aber nicht wie es zu tun ist.
+- Wenn eine normale Klasse ein Interface implementiert (erbt), muss es alle abstrakten Methoden aus diesem Interface 
+implementieren, d.h. vollenden. Darin muss das "Wie" etwas getan wird, programmiert sein.
+- Eine normale Klasse (Subklasse) kann mehrere Interfaces implementieren, bzw. von mehreren Interfaces Methoden erben.
+- In einem Interface kann bei den abstrakten Methoden das Schlüsselwort "abstract" entfallen. Denn Interfaces enthalten
+lediglich abstakte Methoden.
 
 Bestandteile von Interfaces:
 a) Eigenschaften / Attribute --> ABER: nur Konstanten
