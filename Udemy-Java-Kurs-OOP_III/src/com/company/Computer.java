@@ -2,7 +2,7 @@ package com.company;
 
 public class Computer {
 
-  // EINGENSCHAFTEN / ATTRIBUTE
+  // EIGENSCHAFTEN / ATTRIBUTE
   String cpu;
   Mainboard mainboard; // Die class Computer hat in seinen Eigenschaften ein anderes Objekt: mainboard.
   int preis;
@@ -31,7 +31,7 @@ public class Computer {
 
 }
 
-// EINGENSCHAFTEN / ATTRIBUTE
+// EIGENSCHAFTEN / ATTRIBUTE (Variablen)
 // KONSTRUKTOREN
 // METHODEN
 

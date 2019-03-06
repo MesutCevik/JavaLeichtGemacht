@@ -1,0 +1,54 @@
+**LIST - SET - MAP MIT OBJEKTEN AUS EIGENEN KLASSEN NUTZEN**
+
+Set<String> set1 = new TreeSet<String>();
+
+1) Linke Seite vom Zuweisungsoperator '=':
+-- Set:			Typ (Datenstruktur) der deklarierten Variable.
+-- <String>:	Typ (Datentyp) der Elemente (Objekte), welche in der deklarierten Variable zu speichern sind.
+-- set1:		Der Name der Variable.
+
+2) Rechte Seite vom Zuweisungsoperator '=':
+Hier steht das, was in die Variable set1 zugewiesen wird.
+-- new:			new-Operator zum initialisieren einer neuen Datenstruktr.
+-- TreeSet():	Der Typ der Datenstruktur. Mit den leeren runden Klammern wird ein leeres TreeSet erstellt.
+-- <String>:	Typ (Datentyp) der Elemente (Objekte), welche in der deklarierten Variable zu speichern sind.
+				Die dreieckigen Klammern können auch leer stehen, da auf der linken Seite der Datentyp bereits festgelegt wird.
+
+Eigene Objekt in einem Set oder einer Map nutzen.
+Was muss man dafür tun?
+
+Wir erstellen eine Klasse ("Bauplan"), z.B. "Person", und damit erstellen wir ein Objekt ("Wir holen reelle Objekte in unser Programm rein.").
+
+**Was passiert, wenn wir solche eigens erstellte Objekte in ein Set wie oben speichern, oder in eine Map?**
+
+Set und Map gibt es Besonderheiten:
+Set: in die obige set1 können nur Elemente (Objekte) vom Typ String speichern.
+Was passiert, wenn wir z.B. ein Objekt vom Typ "Person" speichern.
+
+Map: Was passiert, wenn wir ein "Person"-Objekt in eine Map speichern wollen.
+
+
+**Wir können mehrere Klassen in einer Datei erstellen!!!**
+**Aber wir dürfen in derselben Datei nur eine Klasse haben die public als Modifier hat.**
+
+
+**Was muss man beachten wenn man eigene Objekte in einem Set oder in einer Map als Key nutzen möchte?**
+Die Klasse, von der die Objekte erstellt und in einer Datenstruktur gespeichert werden, muss die Methoden hashCode() 
+und equals() implementieren. 
+Der Grund ist, dass in einem Set oder in einer Map als Key Objekte einzigartig sind d.h. es darf keine 
+doppelten Objekte geben. ​Daher muss man diese Objekte vergleichen können.
+
+**Was muss beachtet werden wenn man eigene Objekte in einer Struktur sortieren möchte?**
+Die Klasse, aus welcher die Objekte gebildet und einer Datenstruktur gespeichert werden, muss entweder 
+das Comparable oder das Comparator Interface implementieren.
+
+**compareTo(Object o); gehört zum Comparable Interface:**
+Merke "comparTo" : "vergleicheMit" also muss ein Objekt diese Methode aufrufen, da ja das aufrufende Objekt mit 
+dem als Parameter übergebenden Objekt verglichen wird.
+
+**Was ist der Unterscheid zwischen compareTo(Object a) und compare(Object a, Object b)?**
+Der Unterschied liegt darin, dass compareTo von der Klasse selbst implementiert werden muss, während compare nicht 
+in der selben Klasse implementiert wird.
+
+
+

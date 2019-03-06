@@ -1,0 +1,24 @@
+**COMPARATOR und COMPARABLE**
+
+**
+**COMPARABLE --> compareTo()**
+
+
+**Nachteil der compareTo()-Methode aus dem Interface Comparable:**
+Das Objekt, welches compareTo() aufruft um sich mit einem anderen Objekt zu vergleichen, muss die Sortiermethode 
+kennen. D.h. die Klasse des Objekts, welches compareTo() aufruft, muss das Interface Comparable und dort die Methode
+compareTo() implementieren.
+
+Dies ist der Fall bei Klassen wie String, Integer, Double usw., welche Java bekannt sind.
+Bei eigens erstellten Klassen muss das Interface Comparable und dort die Methode compareTo() implementiert werden.
+
+ALSO:
+Die selbst erstellte Klasse, dessen Objekte in List, Set, Map abgespeichert und sortiert werden sollen, muss 
+die Methode compareTo() vom Interface Comparable implementieren.
+
+NACHTEIL: Manchmal möchte man die Sortierfunktion ändern, z.B. nicht mehr alphabetisch sortieren, sondern nach der
+Länge der Wörter. Dann muss das Programm angepasst werden, d.h. die Methode compareTo() in der Klasse der Datentypen
+muss angepasst werden.
+
+**Vorteil vom Interface Comparator:**
+Eigene Klassen mit unterschiedlichen Sortierfunktionen definierbar. 

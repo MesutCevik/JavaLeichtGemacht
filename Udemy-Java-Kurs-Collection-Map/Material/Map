@@ -1,0 +1,59 @@
+**Map**
+
+Map Datenstrukturen werden in Java durch die Klassen realisiert:
+1) HashMap
+2) TreeMap
+
+Map -> Assoziatives Datenfeld
+
+-> Zuordnung durch einen Schlüssel.
+-> Schlüssel sind Objekte.
+-> Schlüssel dienen als Adresse zum Element/Objekt.
+-> Inhalt ist ebenfalls ein Objekt.
+-> Keine feste Reihenfolge der Element/Objekte.
+-> Zu jedem Inhalt gibt es einen einzigartigen Schlüssel!
+
+HINWEIS: Das Äquivalten zu Map in Python ist das "Dictionary". 
+
+
+
+Was ist ein Assoziativspeicher? Assoziation = hat-Beziehung
+Der Inhalt hat eine Beziehung zum Schlüssel.
+
+Jeder Inhalt hat seinen besonderen (einzigartigen) Schlüssel.
+Es gibt keine doppelten Schlüssel. Wenn man einen vorhandenen Schlüssel erneut generieren möchte, dann wird
+der alte überschrieben.
+
+Eine Map-Struktur ist "ähnlich" der einer Liste. Da zu jedem Element genau ein Schlüssel zugeordnet wird. Jedes Value 
+hat seinen Key und dieser Key ist einzigartig. 
+Jeder Wert in einer Map erhält seinen Schlüssel und über diesen einen Schlüssel gelangt man zu dem Wert.
+
+**MAP**
+1) **TreeMap**
+2) **HashMap**
+3) **LinkedHashMap**
+
+Der Key (Schlüssel) ist auch ein Objekt. Also, jeder Schlüssel ist selbst ein Objekt.
+
+Map<K, V>:
+K = **Key** (Schlüssel)
+V = **Value** (Inhalt)
+
+**_Erstellen einer Map - die Struktur:_**
+**Map<Integer, String> map1 = new HashMap<>();**
+
+Integer -> Datentyp des Keys, String -> Datentyp des Werts.
+
+**WICHTIGE METHODEN**
+a) map1.put(1234, "Tisch Viru");
+Fügt ein zusammengeschlossenes Paar in die Datenstruktur (map) hinzu.
+
+b) map1.get(key);
+Gibt den Inhalt zurück mit den <key>.
+Denk an den Scanner bei IKEA, scanne eine Artikelnummer und du erhälts alle Infos zu diesem Artikel.
+
+c) map1.keySet();
+Gibt ein Set zurück, wo die Schlüssel gespeichert sind. Die Schlüssel werden im Hintergrung in einem Set gespeichert.
+Warum ein Set?
+In einem Set ist jedes Element einzigartig, d.h. es gibt kein Element doppelt.
+So sind auch die Schlüssel in einer Map einzigartig, sie gibt es nur ein einziges mal.

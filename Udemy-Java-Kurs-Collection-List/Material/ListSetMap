@@ -1,0 +1,121 @@
+**COLLECTION FRAMEWORK**
+
+Bisher wir die Datenstruktur ARRAY kennengelernt.
+
+Eigenschaften eines Arrays:
+- indiziert: Index weist auf einen Feld hin, wo ein Wert gespeichert wird.
+- statisch: Die Größe (Menge der Felder) ist nicht veränderbar und wird bei der Deklarierung oder Initionalisierung 
+festgelegt.
+
+
+**DATENSTRUKTUREN im Collection Framework**
+1) **List** (Struktur: Liste)
+2) **Set** (Struktur: Menge)
+3) **Map** (Struktur: Assziatives Datenfeld)
+Das sind die Konzepte, Logiken hinter den Datenstrukturen des Collection Frameworks.
+
+Datenstrukturen: Daten werden innerhalb einer Struktur abgelegt.
+
+Logiken in die Programmierung verpacken >> durch Klassen.
+
+Wie werden diese Datenstrukturen in Java realisiert?
+
+**Wie alles andere in Java werden auch Datenstrukturen durch KLASSEN abgebildet!**
+
+Übersicht der Klassen für Datenstrukturen:
+
+Die Struktur LIST (Liste):
+A) ArrayList
+B) LinkedList
+
+Die Struktur SET (Menge):
+A) TreeSet
+B) HashSet
+
+Die Struktur MAP (Assoziatives Datenfeld):
+A) TreeMap
+B) HashMap
+
+
+**1) LIST**
+Dies ist das allgemeine Konzept einer Liste:
+- Eine Liste enthält Elemente (Objekte).
+- Die Größe der Liste ist bei der Erstellung unbekannt.
+- Die Größe ist dynamisch, d.h. es können Elemente (Objekte) hinzugefügt und entfernt werden
+        >> Das ist der große Vorteil gegenüber einem Array!
+- Es können nur Objekte gespeichert werden.
+- Elemente (Objekte) können an beliebigen Stellen hinzugefügt werden.
+- Gleiche Elemente (Ojekte) dürfen doppelt, dreifach usw. vorhanden sein.
+
+ERKLÄRUNG:
+In der OOP werden reelle Objekte anhand von Klassen in ein Programm geholt.
+Listen aus der reellen Welt werden durch die Klassen ArrayList und LinkedList in das Programm geholt werden.
+Dabei stellt "List" das allgemeine Konzept dar.
+
+**Klassen für Listen im CF**
+Eine Liste wird in Java durch diese Klassen realisiert:
+A) **ArrayList**
+B) **LinkedList**
+
+
+**A) ArrayList**
+Die Klasse ArrayList (Feld).
+
+Ein ArrayList ist im Grunde ein Array, es ist nur dynamisch.
+Es ist ein Array als eine Liste.
+
+Eigenschaften:
+- dynamisch, d.h. die Größe ist veränderbar.
+- Zuordnung durch den Index (Zahlen).
+- Reihenfolge durch den Index gegeben.
+
+In der ArrayList können keine primitiven Datentypen abgelegt werden. Es können nur Objekte (komplexe Datentypen) 
+abgespeichert werden. Daher gibt es die sog. WRAPPERKLASSEN, welche einen primitiven Datentyp umhüllen und in 
+ein Objekt wandeln. Damit können auch primitive Datentypen in ArrayLists gespeichert und bearbeitet werden.
+
+BEISPIEL: Integer zahl1 = new Integer(22);
+Die Zahl 22 (ein int, als ein primitiver Datentyp)
+
+
+**B) LinkedList**
+Unterscheidet sich leicht von der ArrayList.
+
+Die Klasse LinkedList:
+- dynamisch, d.h. die Größe der LinkedList ist veränderbar.
+- Zuordnung durch den Index!!!
+- Reihenfolge wie in einer Liste, sprich: jedes Element kennt das nächste Element usw.
+- Jedes Objekt kennt seine Nachbarn (nennt man oft VERKETTETE LISTE oder auch DOPPELT VERKETTETE LISTE).
+
+
+**2) SET**
+Set (Menge)
+- ungeordnete/unsortierte Sammlung
+- Jedes Element (Objekt) nur einmal vorhanden sein, d.h. kein Element ist( kann doppelt vrohanden sein.)
+
+Wird in Java durch diese Klassen realisiert:
+A) **TreeSet**
+B) **HashSet**
+
+
+**3) MAP**
+Eine Map ist ein assoziatives Datenfeld:
+- Zuordnung durch ein Schlüssel.
+- Schlüssel kann ein anderes Objekt sein, häufig verwendet man aber Strings.
+- Schlüssel dienen als Adresse zum Element / Objekt. Also, der Zugriff auf einen Wert erfolgt über den Schlüssel.
+- Keine feste Reihenfolge der Elemente.
+
+
+
+**Beispiele für ArrayLists**
+a) ArrayList einkaufsListe = new ArrayList();
+In diese ArrayList können Daten von beliebigen Typen gespeichert werden. Es gibt keine Einschränkung für den Datentyp.
+
+b) ArrayList<String> namensListe = new ArrayList<String>();
+Hier ist der Datentyp auf einen generischen Typ (Generics) festgelegt: String.
+Damit können in dieser ArrayList nur Strings gespeichert werden.
+
+zu b) 
+namensListe.add("Peter"); // Fügt einen String der ArrayList "namensListe".
+namensListe.add(new Double(4.5)); // Falsch, not applicable.
+Letztes Beispiel funktioniert nicht, weil oben festgelegt wurde, dass in dieser ArrayList nur Strings gespeichert 
+werden soll.

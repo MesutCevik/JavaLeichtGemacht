@@ -1,0 +1,9 @@
+**TREE**
+
+TreeSet sortiert seine Werte auf natürliche Art (ABC..., abc..., 123...).
+
+
+Alles was **kleiner** ist als die Wurzel / Knoten steht **_links_**.
+Alles was **GRÖßER** ist als die Wurzel / Knoten steht **_rechts_**.
+
+Im TreeSet wird durch die **Baumstruktur** sichergestellt, dass ein Element genau einmal vorkommt.

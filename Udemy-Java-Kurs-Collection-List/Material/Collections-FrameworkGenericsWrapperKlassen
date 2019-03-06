@@ -1,0 +1,129 @@
+**COLLECTIONS**
+
+**Das Collection-Framework**
+Collection = Sammlung
+
+Was ist ein Framework?
+MERKE: **Gerüst**, **Baugerüst**
+
+**FRAMEWORK**
+ = Ein Verbund aus fertigen Klassen, Interfaces oder auch Abstrakten Klassen.
+ 
+ D.h. alle Klassen, Interfaces etc. sind schon fertig implementiert, wir müssen nur noch wissen, was die so machen.
+ Dann können wir sie nutzen.
+ 
+ Ein Framework ist ein Gerüst (Baugerüst!). Dieses Gerüst beinhaltet Klassen, Interfaces und auch Abstrakte Klassen. 
+ Der Vorteil von einem Framework ist, dass alle Klassen schon fertig implementiert ist.
+ 
+ 
+ **COLLECTION FRAMEWORK**
+Collection = Sammlung
+Das Gerüst/Konzept:
+Es bietet uns Datenstrukturen an, um OBJEKTE zu speichern. Ähnlich wie Du das bereits im Kapitel über das Array kennen 
+gelernt hat.
+
+Der Collection Framework bietet dynamische Datenstrukturen.
+
+Datenstruktur = "Man legt Daten innerhalb einer bestimmten Struktur ab." 
+Dienen zur Zwischenspeicherung von Daten.
+
+Collection Framework erlaubt uns fertige Sammlungen zusammenzustellen.
+
+Das Collection Framework bietet Datenstrukturen an, die mit den Daten darin wachsen oder kleiner werden.
+Im Gegensatz dazu bietet z.B. ein Array eine fest Größe zum Speichern von Daten. Dieser fester Wert wird bei 
+der Deklaration festgelegt.
+
+Bisher gelernt: Array:
+In einem Array haben wir Daten in einer festen Struktur abgespeichert. 
+Array hat eine statische Struktur.
+
+**Verschiedene Frameworks für Java**
+-> Java Collection: Datenstrukturen
+-> JavaFX: grafische Oberflächen
+-> Hibernate: Kommunikation mit Datenbanken
+
+**DATENSTRUKTUREN**
+1.) List    (Struktur: Liste)
+2.) Set     (Struktur: Menge)
+3.) Map     (Struktur: Assoziatives Datenfeld)
+
+In Java wird die Logik dieser Datenstrukturen aus der reellen Welt wird in Klassen abgebildet.
+
+MERKE: In der OOP werden Objekte aus der reellen Welt in Klassen abgebildet.
+
+Alles aus der reellen Welt, das wir ins Programm holen wollen, wird mit Klassen abgebildet.
+
+MERKE: In den Datenstrukturen aus dem Framework Collection können wir nur Objekte speichern.
+
+
+**GENERICS**
+Was sind "Generics"?
+Generics sind eine Art Platzhalter.
+= Alles kann, nichts muss"
+
+**generisch = kein vordefinierter Typ (das kann alles sein)**
+
+Generics werden oft genutzt, um nur einen bestimmten Typ (Datentyp) in einer Datenstruktur zu speichern.
+
+Bsp.: In einer BMW-Liste möchte ich nur BMWs speichern, keine anderen Automodelle.
+Bsp.: Auf einer Einkaufsliste soll nur gespeichert werden, was gekauft werden soll. 
+
+**Gängige Bezeichnungen**
+T = Type // steht für alle Typen, sprich Datentypen.
+V = Value // steht für einen Wert, z.B. 5 oder "Christian"
+K = Key // Ein Schlüssel ist wieder ein Wert
+E = Element
+
+Generics funktionieren nur mit Objekten!
+
+WRAPPER KLASSEN machen aus primitiven Datentypen (z.B. int) Objekte. Die umlegen die primitien Datentypen mit einer 
+Hülle.
+
+MERKE: List >> Einkaufsliste
+
+
+**WRAPPER KLASSEN**
+Wrapper = Hülle
+to wrap = umhüllen, verpacken
+
+**Was sind Wrapper Klassen?**
+Wrapper Klassen bilden um eine "Primitive Information", z.B. eine 4 (Ganzzahl), eine Art Hülle. So wird die "Primitive 
+Information" zu einem komplexen Objekt und kann z.B. in Datenstrukturen genutzt werden.
+
+Vorbemerkung:
+Primitive Datentypen in Java erlauben es nur eine Information pro Variable abzuspeichern.
+
+Wozu Wrapper Klassen?
+Dynamische Datenstrukturen.
+VORTEIL: In den (dynamischen) Datenstrukturen (aus dem Collection Framework) kann man nur Objekte abspeichern.
+NACHTEIL: Man kann keine primitiven Variablen / Datentypen dort abspeichern, wie z.B. double, float, int, boolean, char.
+
+Damit wir dennoch primitive Datentypen in generischen Datenstrukturen speichern können, gibt es die Wrapper Klassen. 
+Mit einem Wrapper umhüllen (umschließen) wir einen primitiven Datentyp und wenden es in einer Datenstruktur an.
+
+Wenn wir einen primitiven Datentypen mit einem Wrapper umschließen, erstellen wir damit ein Objekt.
+Und für Objekte stehen verschiedene Methoden zur Verfügung, die jetzt angewendet werden können. 
+
+Beispiel für eine Wrapper Klasse:
+Integer ichBinEinIntObjekt
+int value = 4;
+
+toString();
+valueOf();
+
+BEISPIEL:
+// Variabele mit primitiven Datentyp.
+int zahl1 = 4;
+
+// Wrapper = Hülle. Wrapperklassen legen um die eine Information eine Hülle, um sie komplex zu machen, d.h. um sie 
+// zu einem Ojekt umzuwandeln.
+Integer integer = Integer.valueOf(4)
+
+/** Sinn: Damit können primitive Datentypen zu komplexten Datentypen, also zu Objekten umgewandelt. Dann können sie in 
+* einer komplexen Datenstruktur abgelegt werden.  Außerdem können verschieden Methoden für dieses Objekt  angewendet 
+* werden.
+*/ 
+
+double zahl3 = 4.5;
+Double zahl4 = new Double(zahl3);
+

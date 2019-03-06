@@ -1,0 +1,18 @@
+**COLLECTIONS.SORT()**
+
+Die Set-Klasse TreeSet sortiert die Elemente bereits bei Eingang. Daher ist bei dieser Collections-Klasse kein 
+Sortieren erforderliche.
+
+List-Klassen wie ArrayList oder LinkedList speichern Elemente genauso ab, wie sie einer Liste hinzugefügt werden. D.h.
+die Listen sind unsortiert. Wenn nun der Bedarf entsteht, die Elemente einer Liste zu sortieren, dann gibt es dafür 
+eine Klasse mit einer Sortierfunktion:
+-->> Klasse: **Collections**
+-->> Methode: **sort()**
+
+Die sort()-Methode ist statisch ("static"), weshalb es über den Klassennamen und dem .-Operator aufgerufen wird:
+Collections.sort(listeZuSortieren);
+Da es eine statische Methode ist, kann es ohne ein Collections-Objekt zu erzeugen genutzt werden.
+
+Merke:
+**Collection** = Interface
+**Collections** = Klasse 

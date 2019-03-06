@@ -1,0 +1,28 @@
+**COMPARABLE-COMPARATOR**
+
+Listen vom Typ ArrayList und LinkedList speichern Ihre Elemente (Objekte) genauso, wie sie hinzugefügt werden. D.h.
+sie werden nicht sortiert. Bei Bedarf müssen diese Listen sortiert werden.
+Dazu gibt Methode **sort(List<E> list)** aus der Collections Klasse. Da es eine statische Methode ist (static) kann sie direkt über den
+Klassennamen und dem .-Operator aufgerufen werden.
+**Collections.sort():**
+
+Die sort()-Methode kann aber nur bei Elementen (Objekten) angewendet werden, deren Klassen die Interfaces 
+**Comparable** und **Comparator** implementiert haben. 
+
+**Comparable:**
+-> Sortiert die Elemente (Objekte) in Listen in natürlicher Ordnung, also ABC..., abc..., 123...-> 
+-> Coparable hat damit den Nachteil, dass er nur in der NATÜRLICHEN ORDNUNG sortiert. Manchmal wollen wir aber in 
+anderer Art sortieren. Dazu eignet sich das Interface ...
+-> String, Integer, Double etc. haben das Interface Comparable implementiert, sprich die Methode compareTo(T o).
+Daher werden Elemente (Objekte) von diesen Klassen in der natürlichen Ordnung sortiert.
+
+**Comparator:** 
+-> Comparator ist ein Vergleicher!
+-> Sortiert z.B. Rückwärts oder ab der Mitte oder nach Wörterlängen usw. In diesen Bedarfsfällen sollte ein Comparator 
+erstellt und genutzt werden.
+
+
+** Wenn man ein Set sortieren will ...**
+Man nimmt die Klasse TreeSet, die sortiert schon bei der Eingabe die Elemente (Objekte).
+
+

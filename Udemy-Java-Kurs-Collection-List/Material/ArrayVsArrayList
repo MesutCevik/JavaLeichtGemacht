@@ -1,0 +1,19 @@
+**ARRAY VERSUS ARRAYLIST**
+
+MERKE:
+Array (statisch): Objekte und primitive Variablen speicherbar
+
+List, Set und Map (dynamisch): Objekte und Wrapper-Objekte (können primitive Variablen enthalten)
+
+BEISPIEL ArrayList:
+ArrayList<Adresse> adressenListe = new ArrayList<Adresse>(); // dynamisch!
+
+BEISPIEL Array:
+Adresse [] adressenArray = {peterAdresse, hansAdresse, michaelAdresse}; // statisch! Deklaration + Initialisierung.
+ALTERNATIVE:
+Adresse [] addressenArray = new Adresse[3]; Nur Deklaration, aber mit Größenangabe: 3 Felder zum Speichern von Werten.
+
+NACHTEIL von Array:
+Bei der Deklaration oder Initialisierung muss die Größe angegeben werden, also die Anzahl der Felder, in die Werte 
+gespeichert werden. Diese Größe kann im nachhinein nicht mehr geändert werden. Daher: statisch!
+    

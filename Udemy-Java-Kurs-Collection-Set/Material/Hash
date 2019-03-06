@@ -1,0 +1,16 @@
+**HASH**
+
+Hashverfahren / Hashwerte / Hashfunktion
+
+**Hash = zerhacken**
+
+In Java werden Werte (z.B. Passwörter, Namen) durch eine Hashfunktion bzw. -verfahren zerhakt und daraus ein Hashwert
+erzeugt. Hashwerte werden dann in einer Tabelle gespeichert, so dass Java schneller damit arbeiten kann.
+
+**BEISPIEL:**
+Passwort: Yabba123 >>> Hashfunktion die zerhackt: z.B. MD5 >>> Hashwert: 3rt...zb98e
+
+**Hashfunktion** MD5 ist einer von vielen Hashfunktionen, die ihren eigenen Algorithmen nutzen, um **Hashwerte** zu 
+erzeugen. Hashfunktionen zerhacken einen Wert (z.B. ein Passwort) und erzeugen einen Hashwert.
+
+Der Hashwerte aus der Hashfunktion MD5 haben immer diesselbe Zeichenlänge.

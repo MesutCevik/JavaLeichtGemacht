@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76fcd77-4a6f-4488-9600-05bd6e9a9289" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/Material/Notizen-OOP-IV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/src/com/company/GoogleKonto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/src/com/company/Held.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_V/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_V/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/Notizen-OOP_IV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Udemy-Java-Kurs-OOP_IV/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +24,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="131">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MainHund.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -32,10 +40,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Laptop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            <state relative-caret-position="417">
+              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Material/OOP-Notizen.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="510">
+                <caret line="30" selection-start-line="30" selection-end-line="30" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -43,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Hund.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
+            <state relative-caret-position="629">
               <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
@@ -64,17 +93,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Auto.java" />
         <option value="$PROJECT_DIR$/src/com/company/Hund.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainHund.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Laptop.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/Material/OOP-Notizen.md" />
+        <option value="$PROJECT_DIR$/src/com/company/Auto.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="173" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-145" />
+    <option name="y" value="-1245" />
     <option name="width" value="1440" />
-    <option name="height" value="814" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -85,6 +117,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -92,6 +125,11 @@
             <path>
               <item name="Udemy-Java-Kurs-OOP_I" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udemy-Java-Kurs-OOP_I" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udemy-Java-Kurs-OOP_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy-Java-Kurs-OOP_I" type="462c0819:PsiDirectoryNode" />
+              <item name="Material" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Udemy-Java-Kurs-OOP_I" type="b2602c69:ProjectViewProjectNode" />
@@ -108,13 +146,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547732499508" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547941766747" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +165,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainHund">
+  <component name="RunManager" selected="Application.Laptop">
+    <configuration name="Laptop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Laptop" />
+      <module name="Udemy-Java-Kurs-OOP_I" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Udemy-Java-Kurs-OOP_I" />
@@ -154,6 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Laptop" />
         <item itemvalue="Application.MainHund" />
         <item itemvalue="Application.Main" />
       </list>
@@ -171,18 +222,21 @@
       <updated>1547335318036</updated>
       <workItem from="1547335324401" duration="9785000" />
       <workItem from="1547503525345" duration="7614000" />
-      <workItem from="1547565006058" duration="11702000" />
+      <workItem from="1547565006058" duration="18126000" />
+      <workItem from="1547855368937" duration="2817000" />
+      <workItem from="1548016717158" duration="1343000" />
+      <workItem from="1548283503973" duration="571000" />
+      <workItem from="1548422319345" duration="2997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29101000" />
+    <option name="totallyTimeSpent" value="43253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="173" width="1440" height="814" extended-state="1" />
-    <editor active="true" />
+    <frame x="-145" y="-1245" width="1440" height="809" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123032905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -191,7 +245,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2718676" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,7 +254,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32961586" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -219,31 +273,48 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Auto.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MainHund.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Laptop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Hund.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="629">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Material/OOP-Notizen.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="30" selection-start-line="30" selection-end-line="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="131">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MainHund.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="417">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
         </state>
       </provider>
     </entry>

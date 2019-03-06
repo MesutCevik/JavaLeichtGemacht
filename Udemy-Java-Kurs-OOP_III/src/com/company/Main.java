@@ -51,7 +51,7 @@ public class Main {
  *
  * ZEILE 1:
  * Mainboard (Datentyp) board2 (Variable ) = (Zuweisungsoperator) new (Schlüsselwort) Mainboard() (Konstruktor);
- * Oben ist ein Standard-Konstruktor, welcher keine Parameter benötigt.
+ * Oben ist ein Standard-Konstruktor, welcher keine Parameter benötigt, um ein Objekt dieser Klasse zu erzeugen.
  *
  * ZEILE 2:
  * Computer (Datentyp) cp2 (Variable ) = (Zuweisungsoperator) new (Schlüsselwort) Computer("Intel", board2, 500)

@@ -1,0 +1,35 @@
+**COLLETION SET**
+
+Datenstrukturen vom Typ Set werden in Java durch die Klassen realisiert:
+1) **TreeSet** --> Tree = Baum
+2) **HashSet** --> Nutzt das Hash-Verfahren
+
+**SET (MENGE)**
+- ungeordnete Sammlung von Elemten (Objekt).
+- Jedes Element (Objekt) ist nur einmal vorhanden, d.h. kein Element ist/kann doppelt vorhanden sein.
+
+Recap:
+TreeSet und HashSet sind Klassen, welche die Methoden vom Interface Set implementieren müssen. Diese Methodensignaturen/-köpfe sind bei beiden identisch, nur die Umsetzung ist etwas anders.
+
+**Der wichtigste Unterschied von "Sets" zu "List":**
+Die Logik des Set erlaubt nicht, dass kein Element (Objekt) doppelt vorkommen kann, da jedes Element als einzigartig 
+gilt.
+
+Die Logik des Interfaces "Set" erlaubt nicht, dass Elemente in einen Set übernommen werden, wenn bereits ein gleiches
+Element vorhanden ist.
+
+**TreeSet**
+Sortiert die Elemente bereits bei der Eingabe in die Datenstruktur, undzwar nach der natürlichen Ordnung.
+Der doppelte Wert "Peter" wird nur einmal ausgegeben, weil TreeSet das Interface Set implementiert hat.
+Die Ausgabe erfolgt in der natürlichen Ordnung (ABC..., 123...), also alphabetisch, numerisch sortiert.
+
+**HashSet**
+Die Elemente sind niemals sortiert und können ihre Position beliebig oft wechseln. HashSets sind immer
+ungeordnet. (Merke: "Alles ungeordnet rein in Schublade. Bei jedem Öffnen andere Sortierung").
+Der doppelte Wert "Peter" wird nur einmal ausgegeben, weil HashSet das Interface Set implementiert hat.
+
+**LinkedHashSet**
+Die eingegebenen Elemente werden in der selben Reihenfolge gespeichert, wie sie eingegeben wurden.
+Der doppelte Wert "Peter" wird nur einmal ausgegeben, weil LinkedHashSet das Interface Set implementiert hat.
+Das zweite Element "Peter" wird erst gar nicht gespeichert.
+Jedes Element kennt den vorherigen und nachkommenden, sie sind also verkettet.

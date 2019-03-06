@@ -1,4 +1,4 @@
-package DSUebung;
+package com.company;
 
 public class Kontakt {
 
